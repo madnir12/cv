@@ -224,6 +224,19 @@
             color: #0f172a;
         }
 
+        .project-date {
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            margin-top: 2px;
+            display: block;
+        }
+
+        .project-title-group {
+            display: flex;
+            flex-direction: column;
+        }
+
         .project-tech {
             font-size: 0.75rem;
             font-weight: 700;
@@ -387,7 +400,14 @@
 
             .project-header {
                 flex-direction: row !important;
+                justify-content: space-between !important;
+                align-items: baseline !important;
                 gap: 0 !important;
+            }
+
+            .project-title-group {
+                flex-direction: column !important;
+                align-items: flex-start !important;
             }
         }
     </style>
@@ -460,18 +480,10 @@
 
                     <div class="project-card">
                         <div class="project-header">
-                            <h3 class="project-title">FBR Digital Invoicing Integration</h3>
-                            <span class="project-tech">ERPNext / Frappe</span>
-                        </div>
-                        <p class="project-desc">
-                            Implemented Pakistan FBR Digital Invoicing integration using custom APIs
-                            for real-time compliance and secure transactional reporting.
-                        </p>
-                    </div>
-
-                    <div class="project-card">
-                        <div class="project-header">
-                            <h3 class="project-title">Quran LMS Platform</h3>
+                            <div class="project-title-group">
+                                <h3 class="project-title">Quran LMS Platform</h3>
+                                <span class="project-date">Jan 2026 - Present</span>
+                            </div>
                             <span class="project-tech">Next.js & FastAPI</span>
                         </div>
                         <p class="project-desc">
@@ -482,7 +494,38 @@
 
                     <div class="project-card">
                         <div class="project-header">
-                            <h3 class="project-title">Seerat Quiz Mobile App</h3>
+                            <div class="project-title-group">
+                                <h3 class="project-title">FBR Digital Invoicing Integration</h3>
+                                <span class="project-date">Dec 2025</span>
+                            </div>
+                            <span class="project-tech">ERPNext / Frappe</span>
+                        </div>
+                        <p class="project-desc">
+                            Implemented Pakistan FBR Digital Invoicing integration using custom APIs
+                            for real-time compliance and secure transactional reporting.
+                        </p>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-title-group">
+                                <h3 class="project-title">Manufacturing ERP Implementation</h3>
+                                <span class="project-date">Jan - Feb 2025</span>
+                            </div>
+                            <span class="project-tech">ERPNext</span>
+                        </div>
+                        <p class="project-desc">
+                            Configured and deployed manufacturing workflows and automation for
+                            enterprise-level efficiency, reducing overhead and streamlining supply chains.
+                        </p>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-title-group">
+                                <h3 class="project-title">Seerat Quiz App</h3>
+                                <span class="project-date">April - July 2024</span>
+                            </div>
                             <span class="project-tech">React Native</span>
                         </div>
                         <p class="project-desc">
@@ -493,12 +536,15 @@
 
                     <div class="project-card">
                         <div class="project-header">
-                            <h3 class="project-title">Manufacturing ERP Implementation</h3>
-                            <span class="project-tech">ERPNext</span>
+                            <div class="project-title-group">
+                                <h3 class="project-title">Digital Book Library</h3>
+                                <span class="project-date">Aug 2023 - Jan 2024</span>
+                            </div>
+                            <span class="project-tech">MERN Stack</span>
                         </div>
                         <p class="project-desc">
-                            Configured and deployed manufacturing workflows and automation for
-                            enterprise-level efficiency, reducing overhead and streamlining supply chains.
+                            Built a comprehensive digital library system for managing book collections, 
+                            user rentals, and digital resource access.
                         </p>
                     </div>
                 </section>
@@ -543,6 +589,19 @@
                             <span class="skill-tag">DevOps</span>
                             <span class="skill-tag">Linux</span>
                         </div>
+                    </div>
+                </section>
+
+                <section style="margin-top: 40px;">
+                    <h2 class="section-title">Education</h2>
+                    <div class="skill-group">
+                        <div class="skill-group-title">ISDP Course</div>
+                        <p style="font-size: 0.95rem; font-weight: 500; color: var(--text-muted); margin-top: 5px;">Jamiyah Ashrafiyah Lahore</p>
+                    </div>
+                    
+                    <div class="skill-group">
+                        <div class="skill-group-title">Darse Nizami</div>
+                        <p style="font-size: 0.95rem; font-weight: 500; color: var(--text-muted); margin-top: 5px;">Babul Uloom Kehror Pakka</p>
                     </div>
                 </section>
             </div>
